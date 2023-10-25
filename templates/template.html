@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body style="margin: 0; padding: 0; background-image: url('https://www.uabc.mx/wp-content/uploads/2022/01/RFoto01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh;">
+    <div id="header"></div>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div id="footer">
+        <h6>Creado por miembros de la carrera de Ingenieria en Computación <a href="https://ingenieria.mxl.uabc.mx/pe_ico/index.php/documentacion-del-programa-educativo/mapa-curricular/plan-2020-1">2023</a> </h6>
+        
+    </div>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
