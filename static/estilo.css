@@ -1,7 +1,27 @@
+
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
-
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.lavozdelafrontera.com.mx/local/7lmlmf-cumple-100-anos-rectoria-de-uabc/ALTERNATES/LANDSCAPE_1140/Cumple%20100%20a%C3%B1os%20rector%C3%ADa%20de%20UABC');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 .container {
     max-width: 450px;
     background-color: #fff;
