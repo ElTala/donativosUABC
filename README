@@ -1,0 +1,7 @@
+Para inicializar la aplicación Flask utiliza el comando para comenzar la maquina virtual
+
+.\venv\Scripts\Activate
+
+cd src 
+
+python run.py
